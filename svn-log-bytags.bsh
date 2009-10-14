@@ -1,6 +1,8 @@
 #!/bin/bash
 #Converts tag names to revision numbers for a Subversion log
 #Remember, this could include revisions that occurred on other branches in between these tags
+# Derived from: http://depressedprogrammer.wordpress.com/2006/12/20/using-urls-in-svn-log-command/
+# Concepts from: http://www.bernzilla.com/item.php?id=613
 
 if [ -z $2 ]; then
 echo "Usage: svn-log-bytags earliertagurl1 latertagurl2 outputfilename"
