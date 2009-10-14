@@ -16,9 +16,11 @@ url1="$1"
 url2="$2"
 outputfilename=$3
 
-echo "Creating change log between $url1 and $url2"
+echo 'Subversion export of log in XML format initiated...'
+echo "..Creating change log between $url1 and $url2"
 url1_info=$(svn info $url1 | awk '/Last Changed Rev/{print $4}')
 url2_info=$(svn info $url2 | awk '/Last Changed Rev/{print $4}')
-echo "Executing svn log --xml -r$url1_info:$url2_info"
+echo "...Executing svn log --xml -r$url1_info:$url2_info"
 svn log $url2 --xml --verbose -r$url2_info:$url1_info > $3
-echo "Subversion log report complete."
+echo 'Subversion export of log in XML format complete.'
+echo " "

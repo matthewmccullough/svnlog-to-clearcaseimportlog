@@ -1,3 +1,4 @@
+if [ -z $1 ]; then
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo 'Subversion log file to ClearCase import Conversion Utility'
 echo 'USAGE:'
@@ -5,4 +6,10 @@ echo 'Param 1 = SVN XML log filename'
 echo ' '
 echo 'Outputs the resultant file to the current working directory.'
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+echo 'Processing SVN XML log with Stylesheet initiated...'
+exit
+fi
+
+echo 'Subversion log XSLT conversion to ClearCase format initiated...'
 xsltproc svnlog2cc.xslt $1 > tmp-cclog.log
+echo 'Subversion log XSLT conversion to ClearCase format complete.'
