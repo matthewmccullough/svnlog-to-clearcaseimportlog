@@ -1,0 +1,19 @@
+#!/bin/bash
+#Converts tag names to revision numbers for a Subversion log
+#Remember, this could include revisions that occurred on other branches in between these tags
+
+if [ -z $2 ]; then
+echo "Usage: svn-log-bytags tagurl1 tagurl2"
+exit
+fi
+
+prefix="svn+ssh://${USER}@myhost.com/www/svnrepo/tags/"
+
+url1="${prefix}$1"
+url2="${prefix}$2"
+
+#echo "Creating change log between $url1 and $url2"
+url1_info=$(svn info $url1 | awk '/Last Changed Rev/{print $4}')
+url2_info=$(svn info $url2 | awk '/Last Changed Rev/{print $4}')
+#echo "Executing svn log --xml -r$url1_info:$url2_info"
+svn log --xml --verbose -r$url2_info:$url1_info
