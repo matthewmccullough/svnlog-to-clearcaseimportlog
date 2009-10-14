@@ -3,17 +3,21 @@
 #Remember, this could include revisions that occurred on other branches in between these tags
 
 if [ -z $2 ]; then
-echo "Usage: svn-log-bytags tagurl1 tagurl2"
+echo "Usage: svn-log-bytags earliertagurl1 latertagurl2"
 exit
 fi
 
-prefix="svn+ssh://${USER}@myhost.com/www/svnrepo/tags/"
+#Optional feature: prefix can be set up (maybe passed in)
+#prefix="svn+ssh://${USER}@myhost.com/www/svnrepo/tags/"
+#url1="${prefix}$1"
+#url2="${prefix}$2"
 
-url1="${prefix}$1"
-url2="${prefix}$2"
+url1="$1"
+url2="$2"
 
 #echo "Creating change log between $url1 and $url2"
 url1_info=$(svn info $url1 | awk '/Last Changed Rev/{print $4}')
 url2_info=$(svn info $url2 | awk '/Last Changed Rev/{print $4}')
 #echo "Executing svn log --xml -r$url1_info:$url2_info"
-svn log --xml --verbose -r$url2_info:$url1_info
+svn log $url2 --xml --verbose -r$url2_info:$url1_info
+#echo "Subversion log report complete."
