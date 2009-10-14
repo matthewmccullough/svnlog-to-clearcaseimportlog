@@ -1,10 +1,8 @@
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo 'Subversion log file to ClearCase import Conversion Utility'
 echo 'USAGE:'
-echo 'Param 1 = SVN repo location'
-echo 'Param 2 = FROM SVN Tag'
-echo 'Param 3 = TO SVN Tag'
+echo 'Param 1 = SVN XML log filename'
 echo ' '
 echo 'Outputs the resultant file to the current working directory.'
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
-echo hello world
+xsltproc svnlog2cc.xslt $1 > tmp-cclog.log

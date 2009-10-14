@@ -1,0 +1,13 @@
+echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+echo 'Subversion log file export and conversion to ClearCase import format'
+echo 'USAGE:'
+echo 'Param 1 = SVN repo location'
+echo 'Param 2 = FROM SVN Tag'
+echo 'Param 3 = TO SVN Tag'
+echo ' '
+echo 'Outputs the resultant file to the current working directory.'
+echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+
+# call export from svn
+# svn log --xml REV1 REV2 > tmp-svnlog.xml
+./svn-log-convert-to-cc.bsh tmp-svnlog.xml
