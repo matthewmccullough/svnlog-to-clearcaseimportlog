@@ -4,9 +4,10 @@
 		<xsl:text>FILENAME       COMMENT&#10;</xsl:text>
     <xsl:for-each select="logentry">
 <xsl:for-each select="paths/path">
-<xsl:text>.</xsl:text><xsl:value-of select="."/>    PR# CBS000003 <xsl:value-of select="../../msg"/><xsl:text>&#10;</xsl:text>
+<xsl:text>.</xsl:text><xsl:value-of select="."/>
+<xsl:text>     </xsl:text>
+<xsl:value-of select="../../msg"/><xsl:text>&#10;</xsl:text>
 </xsl:for-each>
 	  </xsl:for-each>
-End log entry
 	</xsl:template>
 </xsl:stylesheet>

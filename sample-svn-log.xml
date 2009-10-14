@@ -6,13 +6,13 @@
 <date>2009-09-04T11:49:05.423765Z</date>
 <paths>
 <path
-   action="D">/maven/components/trunk</path>
+   action="D">/csm_applications/components/trunk</path>
 <path
    copyfrom-path="/maven/components/trunk"
    copyfrom-rev="811355"
-   action="A">/maven/maven-3/trunk</path>
+   action="A">/csm_applications/maven-3/trunk</path>
 </paths>
-<msg>o Moved Maven 3 trunk into its new home as discussed in http://www.mail-archive.com/dev@maven.apache.org/msg81311.html</msg>
+<msg>PR# CBS00039991 o Moved Maven 3 trunk into its new home as discussed in http://www.mail-archive.com/dev@maven.apache.org/msg81311.html</msg>
 </logentry>
 <logentry
    revision="779660">
@@ -20,13 +20,13 @@
 <date>2009-05-28T16:46:43.851958Z</date>
 <paths>
 <path
-   action="D">/maven/components/branches/MNG-2766</path>
+   action="D">/csm_applications/components/branches/MNG-2766</path>
 <path
    copyfrom-path="/maven/components/branches/MNG-2766"
    copyfrom-rev="779659"
-   action="A">/maven/components/trunk</path>
+   action="A">/csm_applications/components/trunk</path>
 </paths>
-<msg>o swapping the branch to trunk
+<msg>PR# CBS00039991 o swapping the branch to trunk
 </msg>
 </logentry>
 <logentry
@@ -37,9 +37,9 @@
 <path
    copyfrom-path="/maven/components/trunk"
    copyfrom-rev="751451"
-   action="A">/maven/components/branches/MNG-2766</path>
+   action="A">/csm_applications/components/branches/MNG-2766</path>
 </paths>
-<msg>o making a branch for for the lifecycle executor refactor
+<msg>PR# CBS00039991 o making a branch for for the lifecycle executor refactor
 </msg>
 </logentry>
 <logentry
@@ -48,9 +48,9 @@
 <date>2009-01-16T13:37:30.336754Z</date>
 <paths>
 <path
-   action="M">/maven/components/trunk/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/src/site/site.xml</path>
 </paths>
-<msg>o bump to maven-stylus-skin:1.1</msg>
+<msg>PR# CBS00039991 o bump to maven-stylus-skin:1.1</msg>
 </logentry>
 <logentry
    revision="728999">
@@ -58,9 +58,9 @@
 <date>2008-12-23T15:26:00.524896Z</date>
 <paths>
 <path
-   action="M">/maven/components/trunk/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/src/site/site.xml</path>
 </paths>
-<msg>o merged r728997 </msg>
+<msg>PR# CBS00039991 o merged r728997 </msg>
 </logentry>
 <logentry
    revision="728647">
@@ -68,89 +68,89 @@
 <date>2008-12-22T11:13:43.703244Z</date>
 <paths>
 <path
-   action="M">/maven/components/trunk/maven-compat/src/test/resources/org/apache/maven/artifact/resolver/ArtifactUpdatePolicyTest.xml</path>
+   action="M">/csm_applications/components/trunk/maven-compat/src/test/resources/org/apache/maven/artifact/resolver/ArtifactUpdatePolicyTest.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/java/org/apache/maven/project/harness/PomTestWrapper.java</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/java/org/apache/maven/project/harness/PomTestWrapper.java</path>
 <path
-   action="M">/maven/components/trunk/maven-project/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/projects/enforcer/enforcer-api/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/projects/enforcer/enforcer-api/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-compat/src/test/resources/org/apache/maven/artifact/manager/DefaultWagonManagerTest.xml</path>
+   action="M">/csm_applications/components/trunk/maven-compat/src/test/resources/org/apache/maven/artifact/manager/DefaultWagonManagerTest.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-plugin-api/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-plugin-api/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources/project-dynamism/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources/project-dynamism/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/resources/test.txt</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/resources/test.txt</path>
 <path
-   action="M">/maven/components/trunk/maven-compat/src/main/java/org/apache/maven/project/ProjectUtils.java</path>
+   action="M">/csm_applications/components/trunk/maven-compat/src/main/java/org/apache/maven/project/ProjectUtils.java</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources/project-dynamism/plugin-level-dep.pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources/project-dynamism/plugin-level-dep.pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-distribution/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-distribution/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources/project-dynamism/pom-relative.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources/project-dynamism/pom-relative.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-toolchain/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-toolchain/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-compat/src/main/java/org/apache/maven/project/MissingRepositoryElementException.java</path>
+   action="M">/csm_applications/components/trunk/maven-compat/src/main/java/org/apache/maven/project/MissingRepositoryElementException.java</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources-project-builder/nexus/nexus-test-harness-launcher/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources-project-builder/nexus/nexus-test-harness-launcher/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-core/src/main/java/org/apache/maven/listeners/MavenModelEventListener.java</path>
+   action="M">/csm_applications/components/trunk/maven-core/src/main/java/org/apache/maven/listeners/MavenModelEventListener.java</path>
 <path
-   action="M">/maven/components/trunk/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources-project-builder/single-test-poms/pluginDependencies.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources-project-builder/single-test-poms/pluginDependencies.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-lifecycle/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-lifecycle/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-model/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-model/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/java/org/apache/maven/project/builder/DefaultDomainModelFactory.java</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/java/org/apache/maven/project/builder/DefaultDomainModelFactory.java</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources/project-dynamism/pom-interp.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources/project-dynamism/pom-interp.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-embedder/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-embedder/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/java/org/apache/maven/project/builder/DefaultDomainModel.java</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/java/org/apache/maven/project/builder/DefaultDomainModel.java</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources-project-builder/nexus/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources-project-builder/nexus/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-compat/src/main/mdo/metadata.mdo</path>
+   action="M">/csm_applications/components/trunk/maven-compat/src/main/mdo/metadata.mdo</path>
 <path
-   action="M">/maven/components/trunk/maven-compat/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-compat/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-reporting-api/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-reporting-api/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/main/java/org/apache/maven/project/builder/Interpolator.java</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/main/java/org/apache/maven/project/builder/Interpolator.java</path>
 <path
-   action="M">/maven/components/trunk/maven-mercury/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-mercury/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project/src/test/resources-project-builder/nexus/nexus-test-harness-parent/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project/src/test/resources-project-builder/nexus/nexus-test-harness-parent/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/projects/enforcer/enforcer-rules/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/projects/enforcer/enforcer-rules/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-core/src/main/java/org/apache/maven/listeners/MavenModelEventProcessor.java</path>
+   action="M">/csm_applications/components/trunk/maven-core/src/main/java/org/apache/maven/listeners/MavenModelEventProcessor.java</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/java/org/apache/maven/project/builder/PluginSpecTest.java</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/java/org/apache/maven/project/builder/PluginSpecTest.java</path>
 <path
-   action="M">/maven/components/trunk/maven-core/src/site/site.xml</path>
+   action="M">/csm_applications/components/trunk/maven-core/src/site/site.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/projects/enforcer/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/projects/enforcer/pom.xml</path>
 <path
-   action="M">/maven/components/trunk/maven-core/src/test/java/org/apache/maven/listeners/BuildExtensionListenerTest.java</path>
+   action="M">/csm_applications/components/trunk/maven-core/src/test/java/org/apache/maven/listeners/BuildExtensionListenerTest.java</path>
 <path
-   action="M">/maven/components/trunk/maven-core/src/main/java/org/apache/maven/listeners/DefaultMavenModelEventProcessor.java</path>
+   action="M">/csm_applications/components/trunk/maven-core/src/main/java/org/apache/maven/listeners/DefaultMavenModelEventProcessor.java</path>
 <path
-   action="M">/maven/components/trunk/maven-project-builder/src/test/projects/enforcer/maven-enforcer-plugin/pom.xml</path>
+   action="M">/csm_applications/components/trunk/maven-project-builder/src/test/projects/enforcer/maven-enforcer-plugin/pom.xml</path>
 </paths>
-<msg>o Fixed svn:keywords</msg>
+<msg>PR# CBS00039991 o Fixed svn:keywords</msg>
 </logentry>
 <logentry
    revision="649913">
@@ -160,192 +160,88 @@
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-model/src/site/site.xml"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-model/src/site/site.xml</path>
+   action="A">/csm_applications/components/trunk/maven-model/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-profile/src/site/site.xml"
    copyfrom-rev="649903"
-   action="R">/maven/components/trunk/maven-profile/src/site/site.xml</path>
+   action="R">/csm_applications/components/trunk/maven-profile/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-plugin-api/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-plugin-api/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-plugin-api/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-project/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-project/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-project/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-artifact/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-embedder/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-embedder/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-plugin-api/src/site/site.xml"
    copyfrom-rev="649903"
-   action="R">/maven/components/trunk/maven-plugin-api/src/site/site.xml</path>
+   action="R">/csm_applications/components/trunk/maven-plugin-api/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-core-it-runner/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-core-it-runner/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-core-it-runner/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-project/src/site/site.xml"
    copyfrom-rev="649903"
-   action="R">/maven/components/trunk/maven-project/src/site/site.xml</path>
+   action="R">/csm_applications/components/trunk/maven-project/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-core-it-runner/src/site/site.xml"
    copyfrom-rev="649903"
-   action="R">/maven/components/trunk/maven-core-it-runner/src/site/site.xml</path>
+   action="R">/csm_applications/components/trunk/maven-core-it-runner/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-distribution/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-distribution/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-distribution/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-toolchain/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-toolchain/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-toolchain/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-reporting/maven-reporting-api/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-reporting-api/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-reporting-api/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-distribution/src/site/site.xml"
    copyfrom-rev="649903"
-   action="R">/maven/components/trunk/maven-distribution/src/site/site.xml</path>
+   action="R">/csm_applications/components/trunk/maven-distribution/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-toolchain/src/site/site.xml"
    copyfrom-rev="649903"
-   action="R">/maven/components/trunk/maven-toolchain/src/site/site.xml</path>
+   action="R">/csm_applications/components/trunk/maven-toolchain/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-artifact/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-embedder-integration-tests/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-embedder-integration-tests/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-core/src/site/site.xml"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-core/src/site/site.xml</path>
+   action="A">/csm_applications/components/trunk/maven-core/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/src/site</path>
+   action="A">/csm_applications/components/trunk/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-artifact/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-workspace/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-workspace/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-artifact/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-lifecycle/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-lifecycle/src/site</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/src/site/site.xml"
    copyfrom-rev="649903"
-   action="R">/maven/components/trunk/src/site/site.xml</path>
+   action="R">/csm_applications/components/trunk/src/site/site.xml</path>
 <path
    copyfrom-path="/maven/components/branches/maven-2.0.x/maven-profile/src/site"
    copyfrom-rev="649903"
-   action="A">/maven/components/trunk/maven-profile/src/site</path>
+   action="A">/csm_applications/components/trunk/maven-profile/src/site</path>
 </paths>
-<msg>added site descriptors to provide modules/parent links (merged from 2.0.x branch r649903)</msg>
-</logentry>
-<logentry
-   revision="649903">
-<author>hboutemy</author>
-<date>2008-04-20T09:56:28.249593Z</date>
-<paths>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-api/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-artifact-manager/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-project/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-core-it-runner/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-reporting/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-core-it-runner/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-reporting/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-descriptor/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-artifact-test/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-distribution/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-toolchain/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-distribution/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-monitor/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-core/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-monitor/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-reporting/maven-reporting-api/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-script/maven-script-ant/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-reporting/maven-reporting-api/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-error-diagnostics/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-profile/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-registry/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-reporting/src</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-project/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-script/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-script/maven-script-beanshell/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-script/maven-script-beanshell/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-artifact-test/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-descriptor/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-parameter-documenter/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-parameter-documenter/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-toolchain/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-core/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-script/maven-script-ant/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-artifact/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-repository-metadata/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-error-diagnostics/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-profile/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-artifact/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-repository-metadata/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-script/src</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-model/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-settings/src/site/site.xml</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-script/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-api/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-artifact-manager/src/site</path>
-<path
-   action="A">/maven/components/branches/maven-2.0.x/maven-plugin-registry/src/site/site.xml</path>
-</paths>
-<msg>added site descriptors to provide modules/parent links</msg>
+<msg>PR# CBS00039991 added site descriptors to provide modules/parent links (merged from 2.0.x branch r649903)</msg>
 </logentry>
 </log>
