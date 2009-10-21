@@ -1,5 +1,5 @@
 if [ -z $2 ]; then
-echo "Usage: svn-log-bytags earliertagurl1 latertagurl2 outputfilename"
+echo "Usage: svn-log-bytags earliertagurl1 latertagurl2"
 echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 echo 'Subversion log file export and conversion to ClearCase import format'
 echo 'USAGE:'
