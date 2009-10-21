@@ -7,9 +7,18 @@
   <xsl:template match="/log">
     <xsl:for-each select="logentry">
       <xsl:for-each select="paths/path">
-        <xsl:text>.</xsl:text>
+        <!-- Put in a leading dot slash to match the ClearCase expected format -->
+        <xsl:text>.&#47;</xsl:text>
         <!-- File path -->
-        <xsl:value-of select="."/>
+        <xsl:call-template name="TrimToAfterFirstSlashPath">
+          <xsl:with-param name="InputString">
+            <xsl:call-template name="TrimToAfterFirstSlashPath">
+              <xsl:with-param name="InputString">
+                 <xsl:value-of select="."/>
+              </xsl:with-param>
+            </xsl:call-template>
+          </xsl:with-param>
+        </xsl:call-template>
         <!-- Column separator -->
         <xsl:text>     </xsl:text>
 
@@ -29,6 +38,12 @@
     <xsl:param name="InputString"/>
     <xsl:variable name="RemainingString" 
       select="substring-before($InputString,'&#10;')"/>
+      <xsl:value-of select="$RemainingString"/>
+  </xsl:template>
+  <xsl:template name="TrimToAfterFirstSlashPath">
+    <xsl:param name="InputString"/>
+    <xsl:variable name="RemainingString" 
+      select="substring-after($InputString,'&#47;')"/>
       <xsl:value-of select="$RemainingString"/>
   </xsl:template>
 </xsl:stylesheet>
