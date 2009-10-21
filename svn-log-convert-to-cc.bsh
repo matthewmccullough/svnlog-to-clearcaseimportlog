@@ -11,5 +11,5 @@ exit
 fi
 
 echo 'Subversion log XSLT conversion to ClearCase format initiated...'
-xsltproc svnlog2cc.xslt $1 > tmp-cclog.log
+xsltproc svnlog2cc.xslt $1 > generated-cclog.log
 echo 'Subversion log XSLT conversion to ClearCase format complete.'

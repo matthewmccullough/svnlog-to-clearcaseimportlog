@@ -10,7 +10,7 @@ echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
 exit
 fi
 
-tmpxmlfilename=tmp-svnlog.xml
+tmpxmlfilename=generated-svnlog.xml
 
 svn-log-bytags.bsh $1 $2 $tmpxmlfilename
 
