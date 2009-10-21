@@ -6,11 +6,11 @@
 <date>2009-09-04T11:49:05.423765Z</date>
 <paths>
 <path
-   action="D">/csm_applications/components/trunk</path>
+   action="D">trunk/csm_applications/components/trunk</path>
 <path
    copyfrom-path="/maven/components/trunk"
    copyfrom-rev="811355"
-   action="A">/csm_applications/maven-3/trunk</path>
+   action="A">trunk/csm_applications/maven-3/trunk</path>
 </paths>
 <msg>PR# CBS00039991 o Moved Maven 3 trunk into its new home as discussed in http://www.mail-archive.com/dev@maven.apache.org/msg81311.html</msg>
 </logentry>
